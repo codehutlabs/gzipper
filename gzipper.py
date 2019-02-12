@@ -4,7 +4,7 @@ import argparse, gzip, os, shutil
 def main():
 
     parser=argparse.ArgumentParser(
-        description="""My Zipper.""",
+        description="""My Gzipper.""",
         epilog="""All's well that ends well.""")
     parser.add_argument('-f', '--filein', type=str, default=None, help='input file to gzip')
     parser.add_argument('-v', '--verbose', action="store_true", help='verbose mode')
